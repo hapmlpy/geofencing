@@ -8,15 +8,24 @@
 
 import UIKit
 import CoreData
+import CoreLocation
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
   var window: UIWindow?
 
+  let dataModel = DataModel()
+  
 
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
     // Override point for customization after application launch.
+//    let locationManager = CLLocationManager
+//    locationManager.requestWhenInUseAuthorization()
+    
+    
+    let firstVC = window?.rootViewController as! MapViewController
+    firstVC.dataModel = self.dataModel
     return true
   }
 
@@ -88,6 +97,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
           }
       }
   }
+  
+//  // MARK: - geofence事件反馈
+//  func handleEvent(forRegion region: CLRegion){
+//    print("Geofence triggered!")
+//  }
 
+}
+
+extension AppDelegate: CLLocationManagerDelegate {
+  
+//  func locationManager(_ manager: CLLocationManager, didEnterRegion region: CLRegion) {
+//    if region is CLCircularRegion {
+//      handleEvent(forRegion: region)
+//    }
+//  }
+//  
+//  func locationManager(_ manager: CLLocationManager, didExitRegion region: CLRegion) {
+//    if region is CLCircularRegion {
+//      handleEvent(forRegion: region)
+//    }
+//  }
 }
 

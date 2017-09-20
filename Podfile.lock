@@ -1,0 +1,24 @@
+PODS:
+  - AMapFoundation (1.4.2)
+  - AMapLocation (2.4.0):
+    - AMapFoundation (~> 1.4)
+  - WilddogCore (2.0.11)
+  - WilddogLocation (0.3.3):
+    - AMapLocation
+    - WilddogSync
+  - WilddogSync (2.3.11):
+    - WilddogCore (~> 2.0.11)
+
+DEPENDENCIES:
+  - WilddogLocation
+
+SPEC CHECKSUMS:
+  AMapFoundation: 6c0471c9a6a0ad17dad46e3d800ad56ca170f82a
+  AMapLocation: 47b62b5381a66e4d0c2931b70ffde72682427896
+  WilddogCore: 515371b98a3298ced567033df3348f9f0e3b2dc0
+  WilddogLocation: d059bf75963c3005215de333e35762e74b42da9f
+  WilddogSync: fb3dc0c95440d8be8f382100d1677b56c72f1b69
+
+PODFILE CHECKSUM: 03b2282c1caf5a70ef41b3693f1fd48152f31506
+
+COCOAPODS: 1.2.1

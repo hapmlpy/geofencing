@@ -1,0 +1,52 @@
+<gpx>
+  <wpt lat="39.922700" lon="116.422640">
+    <ele>0</ele>
+    <time>2017-09-20T11:26:02Z</time>
+    <name>pt0</name>
+  </wpt>
+  <wpt lat="39.923020" lon="116.422270">
+    <ele>0</ele>
+    <time>2017-09-20T11:26:09Z</time>
+    <name>pt1</name>
+  </wpt>
+  <wpt lat="39.924330" lon="116.422230">
+    <ele>0</ele>
+    <time>2017-09-20T11:26:30Z</time>
+    <name>pt2</name>
+  </wpt>
+  <wpt lat="39.924400" lon="116.433760">
+    <ele>0</ele>
+    <time>2017-09-20T11:28:57Z</time>
+    <name>pt3</name>
+  </wpt>
+  <wpt lat="39.924130" lon="116.434450">
+    <ele>0</ele>
+    <time>2017-09-20T11:29:07Z</time>
+    <name>pt4</name>
+  </wpt>
+  <wpt lat="39.924450" lon="116.436200">
+    <ele>0</ele>
+    <time>2017-09-20T11:29:30Z</time>
+    <name>pt5</name>
+  </wpt>
+  <wpt lat="39.922840" lon="116.450270">
+    <ele>0</ele>
+    <time>2017-09-20T11:32:31Z</time>
+    <name>pt6</name>
+  </wpt>
+  <wpt lat="39.913410" lon="116.450280">
+    <ele>0</ele>
+    <time>2017-09-20T11:35:07Z</time>
+    <name>pt7</name>
+  </wpt>
+  <wpt lat="39.913380" lon="116.447990">
+    <ele>0</ele>
+    <time>2017-09-20T11:35:36Z</time>
+    <name>pt8</name>
+  </wpt>
+  <wpt lat="39.914120" lon="116.448000">
+    <ele>0</ele>
+    <time>2017-09-20T11:35:49Z</time>
+    <name>pt9</name>
+  </wpt>
+</gpx>
